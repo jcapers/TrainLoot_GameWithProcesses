@@ -11,7 +11,7 @@ Written from scratch in C.
 ## How it works
 The game is managed by the 'hub' which manages game rounds, game state. The hub keeps track of players and requests moves, as well as communicating game state with players.
 
-The objective is for the players to clear out the train carriages of loot. The carriagesr have two levels. The game ends after 15 rounds and the one with most loot is the winner.
+The objective is for the players to clear out the train carriages of loot. The carriages have two levels. The game ends after 15 rounds and the one with most loot is the winner.
 
 Players can loot, or shoot other players. Shooting causes a player to drop loot. Each player can take one action per round and logic found in each player type determines which action it takes.
 
