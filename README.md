@@ -6,7 +6,7 @@ Written from scratch in C.
 ## Usage
 1. Compile with 'make' command in terminal
 2. Run game with ./2310express [seed] [number of carriages] [./player1 ./player2 ...]
-..* Example: ./2310express 283 5 ./acrophobe ./bandit ./spoiler starts game with three players looting five carriages, of acrophobe, bandit, and spoiler strategies.
+* Example: ./2310express 283 5 ./acrophobe ./bandit ./spoiler starts game with three players looting five carriages, of acrophobe, bandit, and spoiler strategies.
 
 ## How it works
 The game is managed by the 'hub' which manages game rounds, game state. The hub keeps track of players and requests moves, as well as communicating game state with players.
